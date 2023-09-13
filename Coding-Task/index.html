@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP 50 CRYPTO CURRENCY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="section market" aria-label="market update" data-section>
+        <div class="container">
+            <div class="title-wrapper">
+                <h2 class="h2 section-title">Top 50 CRYPTOCURRENCY</h2>
+                <a href="#" class="btn-link">Market Update</a>
+            </div>
+            <div class="market-tab">
+                <ul class="tab-nav">
+                    <li>
+                        <button class="tab-btn active">View All</button>
+                    </li>
+                   
+                </ul>
+                <table class="market-table">
+                    <thead class="table-head">
+                        <tr class="table-row table-title">
+                            <th class="table-heading"></th>
+                            <th class="table-heading" scope="col">#</th>
+                            <th class="table-heading" scope="col">Name</th>
+                            <th class="table-heading" scope="col">Last Price</th>
+                            <th class="table-heading" scope="col">24h %</th>
+                            <th class="table-heading" scope="col">Market Cap</th>
+                            <th class="table-heading" scope="col">Last 7 Days</th>
+                            <th class="table-heading"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-body">
+                       
+                    </tbody>
+                </table>
+            </div>
+            <canvas id="price-chart"></canvas>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
